@@ -37,7 +37,8 @@ docker run -p 7878:7878 -e OPENAI_API_KEY wandb/openui
 
 First be sure to install the package as editable, then passing `--dev` as an argument will live reload any local changes.
 
-```bash
+```bash the file as per the data aquired
+
 pip install -e .
 python -m openui --dev
 ```
